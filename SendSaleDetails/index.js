@@ -47,8 +47,8 @@ app.post("/saleDetails", async (req, res) => {
   let toNumber = "whatsapp:" + whatsappNumber;
   //console.log(toNumber);
 
-  const accountSid = "AC6ca5f2ae445964c9afd905185210d89e";
-  const authToken = "a3e704568cea57597b0a7970ed4370bd";
+  const accountSid = "";
+  const authToken = "";
   const client = require("twilio")(accountSid, authToken);
 
   client.messages
