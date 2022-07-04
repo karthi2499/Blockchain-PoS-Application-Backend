@@ -4,7 +4,7 @@ const app = express();
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json());
 const stripe = require("stripe")(
-  "sk_test_51KjjqoSF4Sl9UBFsRuv255c0qr1jgONsmmADZvlMWzH23blzNdXv2kyTb2YPWqXGreJhu4arf0OvxdLKsXdMw6cE00W1djw1fq"
+  ""
 );
 const cors = require("cors");
 
