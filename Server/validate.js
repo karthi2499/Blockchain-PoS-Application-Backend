@@ -19,7 +19,7 @@ app.get("/", (req, res) => res.send("Backend Server is Running"));
 // Creating a New Anchor Client
 let client = anchor.connect(
   anchor.withCredentials(
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhbmNob3IiLCJleHAiOjE3OTMyNzA0NDUsImp0aSI6ImFvNng3NWo1ZWVrcm0yNnpzY2sxeXdiaSIsInN1YiI6InV1aWd3Yzd6YXhlanJxZHNnYXF6M3NidSIsInNjb3BlIjoiMzEiLCJyb2xlIjoiRnJlZSJ9.Z--sFCzSKffue0cW4eyI4EuEM93R8bP8KRRUzqkGkhc"
+    ""
   )
 );
 
